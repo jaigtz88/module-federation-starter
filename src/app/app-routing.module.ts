@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-import { FileType, MfeUtil } from 'utils';
+import { FileType, MfeUtil } from 'projects/utils/src/public-api';
 
 export const mef = new MfeUtil();
 
