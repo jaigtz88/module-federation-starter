@@ -35,4 +35,12 @@ module.exports = {
     extend: {},
   },
   plugins: [require('@tailwindcss/forms'),require('@tailwindcss/typography')],
+  purge: {
+    enabled: true,
+    content: [
+      './src/**/*.{html,ts}',
+      './projects/app2-restaurant/src/**/*.{html,ts}',
+      './projects/app3-orders/src/**/*.{html,ts}'
+    ]
+  }
 };
